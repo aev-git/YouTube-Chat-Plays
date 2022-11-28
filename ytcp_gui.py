@@ -2,12 +2,6 @@ import PySimpleGUI as sg
 import yt_chat_plays_gui as ytcp
 import json, threading, pytchat, pydirectinput
 
-#to do:
-# make more json maps 
-# make read me
-# allow for managing controls through gui
-# only work in desired app/exe (get active window)
-
 all_inputs = []
 id_tooltip = "Please input your 11-digit stream id, found in the link to the stream\n\nFor example, the 'dQw4w9WgXcQ' part of:\n    (copied from url) https://www.youtube.com/watch?v=dQw4w9WgXcQ\n    (copied from share button) https://youtu.be/dQw4w9WgXcQ"
 json_tooltip = "Select an option that corresponds to a .JSON file with mappings for your controls. \nEach key will be what chat types (case insensitive) and the corresponding value will be the keyboard press.\nFor example, if you choose mgba, if chat types 'up', the game reads the 'w' key"
