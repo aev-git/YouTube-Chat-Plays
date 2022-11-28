@@ -27,6 +27,11 @@ The connection to chat will be cut once the ytcp.exe window is closed.
 - Only keyboard inputs can made (i.e. no mouse or controller inputs)
 - For now, the only default mappings are for mGBA and snes9x, but you can easily add a JSON dictionary file to the Control Layouts folder for whatever program you choose. See the existing layouts for examples, it's really easy to make. The format is {"chat input": "key output"}. Chat inputs are case INsensitive.
 
+## To-do/Nice to haves
+- make more json maps 
+- allow for managing controls through gui
+- only work in desired app/exe (get active window)
+
 ## Acknowledgements
 I want to thank to [pytchat](https://github.com/taizan-hokuto/pytchat/wiki/PytchatCore), [pydirectinput](https://github.com/learncodebygaming/pydirectinput), and all the other libraries I used, as well as
 [StreamersVsChat](https://youtu.be/uE_3RRBz3CQ) for their video that helped me get started with this project!
