@@ -1,7 +1,6 @@
 import PySimpleGUI as sg
 import yt_chat_plays_gui as ytcp
 import json, threading, pytchat, pydirectinput
-#thanks to pytchat https://github.com/taizan-hokuto/pytchat/wiki/PytchatCore and StreamersVsChat https://youtu.be/uE_3RRBz3CQ
 
 #to do:
 # make more json maps 
