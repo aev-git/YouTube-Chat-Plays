@@ -2,7 +2,7 @@
 
 This program fascilitates Twitch Plays-style livestreams on YouTube.
 
-I don't know how much/if this project will be updated, but it does the minimum of what it sets out to do.
+I am not currently updating this project, but the basic functionality is there
 
 ## Description
 When you select an input map and pass an active stream's 11-digit code (found in the url) into the program, it will read chat messages from that stream and send key presses to your active window. Which chat inputs are bound to which key presses are determined by the input map you select.
@@ -15,7 +15,7 @@ The connection to chat will be cut once the ytcp.exe window is closed.
 ## Usage
 - Run ytcp.exe
 - Choose an input map
-- Paste the stream's 11-digit code (found in the url; https://www.youtube.com/watch?v=**sfC6ey0MYGY**,  https://studio.youtube.com/video/**sfC6ey0MYGY**/livestreaming, etc)
+- Paste the stream's 11-digit code (found in the url; https://www.youtube.com/watch?v=**abcdEFGH123**,  https://studio.youtube.com/video/**abcdEFGH123**/livestreaming, etc)
 - (Optional) Give a name to the text file you want to save a record of the inputs in
 - Click "Run"
 - Click the button again to quit and close the program. This doesn't affect the stream or game in any way, besides stopping the keyboard inputs
@@ -27,7 +27,7 @@ The connection to chat will be cut once the ytcp.exe window is closed.
 - Only keyboard inputs can made (i.e. no mouse or controller inputs)
 - For now, the only default mappings are for mGBA and snes9x, but you can easily add a JSON dictionary file to the Control Layouts folder for whatever program you choose. See the existing layouts for examples, it's really easy to make. The format is {"chat input": "key output"}. Chat inputs are case INsensitive.
 
-## To-do/Nice to haves
+## Possible Improvements
 - make more json maps 
 - allow for managing controls through gui
 - only work in desired app/exe (get active window)
@@ -35,14 +35,6 @@ The connection to chat will be cut once the ytcp.exe window is closed.
 ## Acknowledgements
 I want to thank to [pytchat](https://github.com/taizan-hokuto/pytchat/wiki/PytchatCore), [pydirectinput](https://github.com/learncodebygaming/pydirectinput), and all the other libraries I used, as well as
 [StreamersVsChat](https://youtu.be/uE_3RRBz3CQ) for their video that helped me get started with this project!
-
-## Contributing
-
-If you make an input map that you think would be helpful, feel free to make a request to add it to the templates folder.
-
-Pull requests welcome on the off chance someone wants to add/improve anything.
-
-Please reach out if you know a simple way to send JoyKey/Controller outputs with Python! It would be a big QoL change. 
 
 ## License
 
